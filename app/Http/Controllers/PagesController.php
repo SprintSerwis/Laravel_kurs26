@@ -17,8 +17,12 @@ class PagesController extends Controller
      */
     public function index()
     {
-        //
-        echo 'Witaj! To jest metoda index';
+        // Wyświetlamy jakis tekst
+        //echo 'Witaj! To jest metoda index';
+
+        // Wyświetlamy szablon widoku Blade
+        // w formaci {nazwa katalogu}.{nazwa szablonu}
+        return view('pages.index');
     }
 
     /**
